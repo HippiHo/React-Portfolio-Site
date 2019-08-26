@@ -14,10 +14,10 @@ class Contact extends Component {
       <div className="contact">
         <h1>Contact page</h1>
         {console.log(this.fakeMe)}
-        <p>Name: {this.fakeMe.name}</p>
-        <p>Address: {this.fakeMe.address.street} 101, {this.fakeMe.address.zipcode} {this.fakeMe.address.city}</p>
-        <p>Phone: {this.fakeMe.phone}</p>
-        <p>Email: {this.fakeMe.email}</p>
+        <p><strong>Name:</strong> {this.fakeMe.name}</p>
+        <p><strong>Address:</strong> {this.fakeMe.address.street} 101, {this.fakeMe.address.zipcode} {this.fakeMe.address.city}</p>
+        <p><strong>Phone:</strong> {this.fakeMe.phone}</p>
+        <p><strong>Email:</strong> {this.fakeMe.email}</p>
       </div>
     )
   }
