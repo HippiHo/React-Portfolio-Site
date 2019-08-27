@@ -15,10 +15,49 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
-              <hr/>
+              <hr />
 
-              <p>HTML/CSS | Bootstrap | JavaScript | React | Vue | NodeJS | Express | MongoDB | PostgreSQL
+              <p>
+                HTML/CSS | Bootstrap | JavaScript | React | Vue | NodeJS |
+                Express | MongoDB | PostgreSQL
               </p>
+              <div className="social-links">
+                {/* Linkedin */}
+                <a
+                  href="https://www.linkedin.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+
+                                {/* Github */}
+                                <a
+                  href="https://github.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+
+                                                {/* Freecodecamp */}
+                                                <a
+                  href="https://www.freecodecamp.org"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-free-code-camp" aria-hidden="true"></i>
+                </a>
+
+                                                                {/* Youtube */}
+                                                                <a
+                  href="https://www.youtube.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-youtube-square" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
